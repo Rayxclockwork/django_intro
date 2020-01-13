@@ -1,0 +1,16 @@
+<nav>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About</a>
+</nav>
+
+{% block content%}
+<h1>Top 5 Ice Cream flavors</h1>
+
+<li>Coffee</li>
+<li>Lavender Honey</li>
+<li>Chocolate Chip Cookie Dough</li>
+<li>Mint Chocolate Chip</li>
+<li>Vanilla Bean</li>
+
+{% endblock content %}
+
